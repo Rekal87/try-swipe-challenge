@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Card from '../components/Card';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
 
       <main>
         <h1>Test</h1>
+        <Card />
       </main>
 
       <footer></footer>
