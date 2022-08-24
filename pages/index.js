@@ -1,10 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>TRY Creative Tech - Swipe challenge</title>
         <meta
@@ -20,9 +19,11 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className={styles.main}></main>
+      <main>
+        <h1>Test</h1>
+      </main>
 
-      <footer className={styles.footer}></footer>
+      <footer></footer>
     </div>
   );
 }
