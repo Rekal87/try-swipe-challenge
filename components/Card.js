@@ -1,9 +1,9 @@
-import { Flex, Heading, Input } from '@chakra-ui/react';
+import { Button, Flex, Heading, Input } from '@chakra-ui/react';
 
 export default function Card() {
   return (
     <Flex height='100vh' alignItems='center' justifyContent='center'>
-      <Flex direction='column' background='grey.100' p={12} rounded={6}>
+      <Flex direction='column' background='gray.200' p={12} rounded={6}>
         <Heading mb={6}>Log in</Heading>
         <Input
           placeholder='something@email.com'
@@ -12,6 +12,7 @@ export default function Card() {
           type='email'
         />
         <Input placeholder='********' variant='filled' mb={6} type='password' />
+        <Button colorScheme='teal'>Log in</Button>
       </Flex>
     </Flex>
   );
