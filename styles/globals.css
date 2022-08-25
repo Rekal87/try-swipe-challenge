@@ -3,7 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Rubik';
-  background: #0336FF !important;
+  background: #0336FF;
+  color: #FFFFFF
 }
 
 a {
@@ -13,35 +14,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-.arrowLeft {
-  left: 37.5%;
-  right: 12.5%;
-  top: 25%;
-  bottom: 50%;
-  transform: rotate(90deg);
-}
-
-.card {
-/* Card 1 */
-  position: absolute;
-  width: 182.64px;
-  height: 306.04px;
-  left: 655px;
-  top: 385px;
-  background: #0336FF;
-  border: 4.93617px solid #FFFFFF;
-  border-radius: 29.617px;
-}
-
-.card p {
-  /* Like or Dislike */
-  width: 115px;
-  height: 129px;
-  left: 698px;
-  top: 471px;
-  font-size: 36px;
-  line-height: 43px;
-  color: #FFFFFF;
 }

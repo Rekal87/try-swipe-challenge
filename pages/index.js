@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Card from '../components/Card';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -13,18 +14,13 @@ export default function Home() {
         />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
-        <link
-          href='https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap'
-          rel='stylesheet'
-        />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
-        <h1>Logo</h1>
-        <div className='arrowLeft'>
-          <p>↓</p>
-        </div>
+      <main className={styles.main}>
+        <picture>
+          <img src='./images/logo.svg' alt='logo' />
+        </picture>
         <Card />
       </main>
 

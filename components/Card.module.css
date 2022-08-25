@@ -1,0 +1,19 @@
+.card {
+  width: 182.64px;
+  height: 306.04px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #0336ff;
+  border: 4.93617px solid #ffffff;
+  border-radius: 29.617px;
+}
+
+.card p {
+  width: 115px;
+  height: 129px;
+  left: 698px;
+  top: 471px;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+}

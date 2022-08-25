@@ -1,4 +1,5 @@
 import { useGetCards } from '../hooks/useGetCards';
+import styles from './Card.module.css';
 
 export default function Card() {
   // custom hook
@@ -7,7 +8,7 @@ export default function Card() {
   console.log(cards);
   return (
     <div>
-      <div className='card card-1'>
+      <div className={styles.card}>
         <p>Like or Dislike</p>
       </div>
     </div>

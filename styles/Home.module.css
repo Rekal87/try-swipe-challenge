@@ -1,0 +1,12 @@
+.arrowLeft {
+  left: 37.5%;
+  right: 12.5%;
+  top: 25%;
+  bottom: 50%;
+  transform: rotate(90deg);
+}
+
+.main {
+  min-height: 100vh;
+  padding: 3rem;
+}
