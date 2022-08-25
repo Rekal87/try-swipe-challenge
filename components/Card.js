@@ -1,14 +1,15 @@
-import { Button, Flex, Heading, Text } from '@chakra-ui/react';
-import { useGetCards } from '..hooks/useGetCards';
+import { useGetCards } from '../hooks/useGetCards';
 
 export default function Card() {
+  // custom hook
+  const cards = useGetCards();
+
+  console.log(cards);
   return (
-    <Flex height='100vh' alignItems='center' justifyContent='center'>
-      <Flex direction='column' background='gray.200' p={12} rounded={6}>
-        <Heading mb={6}>This is a card</Heading>
-        <Text>No text atm</Text>
-        <Button colorScheme='teal'>Test</Button>
-      </Flex>
-    </Flex>
+    <div>
+      <div className='card card-1'>
+        <p>Like or Dislike</p>
+      </div>
+    </div>
   );
 }

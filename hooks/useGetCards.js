@@ -4,7 +4,7 @@ export const useGetCards = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch('./data.json')
       .then((response) => response.json())
       .then((response) => setData(response));
   }, []);

@@ -21,7 +21,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Test</h1>
+        <h1>Logo</h1>
+        <div className='arrowLeft'>
+          <p>↓</p>
+        </div>
         <Card />
       </main>
 
