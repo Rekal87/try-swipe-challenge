@@ -20,6 +20,7 @@ export default function Home() {
       <main className={styles.main}>
         <picture>
           <img src='./images/logo.svg' alt='logo' />
+          <img src='./images/thumbsdown.svg' alt='thumbsdown_icon' />
         </picture>
         <Card />
       </main>
