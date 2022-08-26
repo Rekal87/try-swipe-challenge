@@ -7,10 +7,8 @@ export default function Card() {
 
   console.log(cards);
   return (
-    <div>
-      <div className={styles.card}>
-        <p>Like or Dislike</p>
-      </div>
+    <div className={styles.card}>
+      <p>Like or Dislike</p>
     </div>
   );
 }
