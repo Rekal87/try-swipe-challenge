@@ -1,5 +1,32 @@
 
 .main {
   min-height: 100vh;
+  min-width: 100vw;
   padding: 3rem;
+}
+
+/* Arrows */
+.leftarrow {
+  left: 35%;
+  top: 50%;
+  position: absolute;
+}
+
+.rightarrow {
+  right: 35%;
+  top: 50%;
+  position: absolute;
+}
+
+/* Thumbs */
+.thumbsdown {
+  left: 25%;
+  top: 50%;
+  position: absolute;
+}
+
+.thumbsup {
+  right: 25%;
+  top: 50%;
+  position: absolute;
 }

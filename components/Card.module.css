@@ -1,16 +1,21 @@
 .card {
   width: 182.64px;
   height: 306.04px;
-  display: flex;
   background: #0336ff;
   border: 4.93617px solid #ffffff;
   border-radius: 29.617px;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -150px;
 }
 
 .card p {
   width: 115px;
   height: 129px;
   font-size: 36px;
-  line-height: 43px;
-  color: #ffffff;
+  text-align: left;
+  word-spacing: 40px;
+  padding: 25px;
 }
