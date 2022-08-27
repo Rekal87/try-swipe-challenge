@@ -10,8 +10,13 @@ You are free to use whatever stack you want to complete the challenge. To submit
 
 When I tried to do a GET call to the provided API, I wasn't getting any data back and I thought this was weird. After a few messing around in the chrome console I could see that the request was blocked by CORS policy. Which I learned you cannot get access unless you're making calls from Origin.
 
-dont know if i need to post all of the data or just status
-cant post to the api endpoint because CORS is blocking
-the images dont work.
+- Don't know if I need to post all of the data or just status
+- Can't post to the API endpoint because CORS is blocking
+- The images dont work.
 
-i think its impossible to get something to fit within the proved card image, so gonig to do my own card design and add that
+I think its impossible to get something to fit within the proved card image, so gonig to do my own card design and add that
+
+## Made with
+
+NextJS, React Spring, React-Use-Gesture.
+

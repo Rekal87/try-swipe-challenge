@@ -33,3 +33,25 @@
 .cardText {
   font-size: 1rem;
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  .card {
+    max-width: 250px;
+  }
+
+  .cardImg {
+    width: 250px;
+    height: 220px;
+  }
+
+  .cardBody {
+    max-height: 240px;
+    overflow: hidden;
+    padding-bottom: 2rem;
+  }
+
+  .cardText {
+    font-size: 0.75rem;
+    text-overflow: ellipsis;
+  }
+}

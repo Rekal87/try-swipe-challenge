@@ -72,7 +72,7 @@ export default function Home() {
             />
           </svg>
         </button>
-        <div className='swipe'>
+        <div className='swipe noselect'>
           <Deck />
         </div>
 

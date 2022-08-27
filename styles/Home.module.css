@@ -30,3 +30,23 @@
   top: 50%;
   position: absolute;
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  .main {
+    padding: 3rem;
+  }
+  .thumbsdown {
+    left: 12%;
+  }
+  .thumbsup {
+    right: 12%;
+  }
+
+  .leftarrow {
+    left: 20%;
+  }
+
+  .rightarrow {
+    right: 20%;
+  }
+}
