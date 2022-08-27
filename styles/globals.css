@@ -39,10 +39,26 @@ button {
 /* iPad Landscape */
 @media screen and (min-device-width: 481px) and (orientation:landscape) {
   .swipe {
-    left: 60%;
+    left: 55%;
   }
  }
 
 /* iPad Portrait */
 @media screen and (min-device-width: 481px) and (orientation:portrait) {
 }
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+  .swipe {
+    top: 50%;
+    left: 60%;
+  }
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+  .swipe {
+    top: 50%;
+    left: 75%;
+  }
+} 

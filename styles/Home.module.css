@@ -68,3 +68,45 @@
     right: 10%;
   }
 }
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+  .main {
+    padding: 2rem;
+  }
+  .thumbsdown {
+    left: 2%;
+  }
+  .thumbsup {
+    right: 2%;
+  }
+
+  .leftarrow {
+    left: 15%;
+  }
+
+  .rightarrow {
+    right: 15%;
+  }
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+  .main {
+    padding: 2rem;
+  }
+  .thumbsdown {
+    left: 2%;
+  }
+  .thumbsup {
+    right: 2%;
+  }
+
+  .leftarrow {
+    left: 10%;
+  }
+
+  .rightarrow {
+    right: 10%;
+  }
+} 

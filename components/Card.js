@@ -49,7 +49,7 @@ export default function Card(props) {
           </div>
           <div className={styles.cardBody}>
             <div className={styles.cardTitle}>Jessica</div>
-            <div className='card-text'>
+            <div className={styles.cardText}>
               Glass half-full using my farmshare jazz cafes local sports teams.
               Netflix my eyes Woody Allen if you think we have something in
               common stepping outside your comfort zone, if you’re still reading
