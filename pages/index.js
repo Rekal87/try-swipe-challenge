@@ -72,7 +72,9 @@ export default function Home() {
             />
           </svg>
         </button>
-        <Deck />
+        <div className='swipe'>
+          <Deck />
+        </div>
 
         <button className={styles.thumbsup}>
           <svg
