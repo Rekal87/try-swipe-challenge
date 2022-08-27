@@ -4,7 +4,7 @@ export const useGetCards = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
-    fetch('./data.json')
+    fetch('https://creative-tech-code-quest.vercel.app/api/swipe')
       .then((response) => response.json())
       .then((response) => setData(response));
   }, []);
