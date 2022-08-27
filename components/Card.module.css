@@ -1,7 +1,7 @@
 .card {
   border-radius: 0.25rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  top: 50%;
+  top: 40%;
   position: absolute;
   left: 50%;
   margin-left: -197px;
@@ -12,7 +12,7 @@
 .cardImg {
   position: relative;
   width: 384px;
-  height: 233px;
+  height: 335px;
 }
 
 .cardTitle {
@@ -26,6 +26,8 @@
   padding-bottom: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  background-color: #fff;
+  color: #000;
 }
 
 .cardText {
