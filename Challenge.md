@@ -13,3 +13,5 @@ When I tried to do a GET call to the provided API, I wasn't getting any data bac
 dont know if i need to post all of the data or just status
 cant post to the api endpoint because CORS is blocking
 the images dont work.
+
+i think its impossible to get something to fit within the proved card image, so gonig to do my own card design and add that

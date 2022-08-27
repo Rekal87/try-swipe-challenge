@@ -1,21 +1,33 @@
 .card {
-  width: 182.64px;
-  height: 306.04px;
-  background: #0336ff;
-  border: 4.93617px solid #ffffff;
-  border-radius: 29.617px;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   top: 50%;
   position: absolute;
   left: 50%;
-  margin-left: -100px;
+  margin-left: -197px;
   margin-top: -150px;
+  max-width: 384px;
 }
 
-.card p {
-  width: 115px;
-  height: 129px;
-  font-size: 36px;
-  text-align: left;
-  word-spacing: 40px;
-  padding: 25px;
+.cardImg {
+  position: relative;
+  width: 384px;
+  height: 233px;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.cardBody {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.cardText {
+  font-size: 1rem;
 }
