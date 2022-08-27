@@ -30,8 +30,8 @@
   top: 50%;
   position: absolute;
 }
-
-@media all and (min-width: 768px) and (max-width: 1024px) { 
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) { 
   .main {
     padding: 3rem;
   }
@@ -48,5 +48,23 @@
 
   .rightarrow {
     right: 20%;
+  }
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+  .thumbsdown {
+    left: 5%;
+  }
+  .thumbsup {
+    right: 5%;
+  }
+
+  .leftarrow {
+    left: 10%;
+  }
+
+  .rightarrow {
+    right: 10%;
   }
 }

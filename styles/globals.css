@@ -36,9 +36,13 @@ button {
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
   .swipe {
     left: 60%;
   }
  }
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+}
