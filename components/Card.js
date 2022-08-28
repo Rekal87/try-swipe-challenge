@@ -1,11 +1,10 @@
-import { useGetCards } from '../hooks/useGetCards';
 import { useSprings, animated, to } from 'react-spring';
 import styles from './Card.module.css';
 import Image from 'next/image';
 
 export default function Card(props) {
   const { i, x, y, rot, scale, trans, cards, bind, objs } = props;
-  const { name, age, distance, text, pics } = objs[i];
+  const { id, title, body, image } = objs[i];
   return (
     // <div className={styles.card}>
     //   <div className={styles.cardImg}>
