@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Dr. Mike",
+        "body": "Do you like to indulge in the sweetness of candy after a hard week of coding?",
+        "image": "https://buzzly.info/upload/587/5282262fe166f1cf9b33a90fafeee363.jpg",
+        "status": null
+    },
+    {
+        "id": 2,
+        "title": "Jenna",
+        "body": "When the client is off, we are off. Therefore you get an extra vacation week to use during Easter and Christmas.",
+        "image": "https://buzzly.info/upload/1758/06f58cecd517e250fcc57a550b954312.jpg",
+        "status": null
+    },
+    {
+        "id": 3,
+        "title": "Jonas",
+        "body": "Some times HK (hyttekontor) is more tempting then busy city streets.",
+        "image": "https://buzzly.info/upload/587/a28fea7ee71c8799a3418781ed78b896.jpg",
+        "status": null
+    },
+    {
+        "id": 4,
+        "title": "Inga",
+        "body": "Everybody has to keep learning, so you have our full support to go to any conference you want.",
+        "image": "https://buzzly.info/upload/1758/d5ac89e3f0a00fa3cf88d131f58bedaa.jpg",
+        "status": null
+    },
+    {
+        "id": 5,
+        "title": "Andy",
+        "body": "Ok, he might not be personal. But our house chef will make you lunch every day of the week.",
+        "image": "https://buzzly.info/upload/587/f36c82d8e914a8bf6f28c033b5da2932.jpg",
+        "status": null
+    },
+    {
+        "id": 6,
+        "title": "Amber",
+        "body": "Ok, he might not be personal. But our house chef will make you lunch every day of the week.",
+        "image": "https://buzzly.info/upload/1758/ec8807acd354fc123a006c3cd9686fd7.jpg",
+        "status": null
+    },
+    {
+        "id": 7,
+        "title": "Hasan",
+        "body": "Ok, he might not be personal. But our house chef will make you lunch every day of the week.",
+        "image": "https://buzzly.info/upload/587/4ef54e8c5ee9c5a3f3974001cdc4998e.jpg",
+        "status": null
+    },
+    {
+        "id": 8,
+        "title": "Bridget",
+        "body": "Ok, he might not be personal. But our house chef will make you lunch every day of the week.",
+        "image": "https://buzzly.info/upload/1758/a163c25d12f8fb090ea85c31b8909595.jpg",
+        "status": null
+    },
+    {
+        "id": 9,
+        "title": "Greg",
+        "body": "Ok, he might not be personal. But our house chef will make you lunch every day of the week.",
+        "image": "https://buzzly.info/upload/587/88ac7095b854c3a8ded1105417a1d8b0.jpg",
+        "status": null
+    },
+    {
+        "id": 10,
+        "title": "Serena",
+        "body": "Ok, he might not be personal. But our house chef will make you lunch every day of the week.",
+        "image": "https://buzzly.info/upload/1758/328f3c12e0de01238aa16034c501fc7b.jpg",
+        "status": null
+    }
+]
