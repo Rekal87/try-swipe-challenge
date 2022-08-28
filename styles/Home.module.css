@@ -30,47 +30,114 @@
   top: 50%;
   position: absolute;
 }
-/* iPad Landscape */
-@media screen and (min-device-width: 481px) and (orientation:landscape) { 
-  .main {
-    padding: 3rem;
-  }
-  .thumbsdown {
-    left: 12%;
-  }
-  .thumbsup {
-    right: 12%;
-  }
 
-  .leftarrow {
-    left: 20%;
-  }
 
-  .rightarrow {
-    right: 20%;
-  }
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .main {
+      padding: 3rem;
+    }
+    .thumbsdown {
+      left: 12%;
+    }
+    .thumbsup {
+      right: 12%;
+    }
+  
+    .leftarrow {
+      left: 20%;
+    }
+  
+    .rightarrow {
+      right: 20%;
+    }
+}
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .main {
+      padding: 3rem;
+    }
+    .thumbsdown {
+      left: 12%;
+    }
+    .thumbsup {
+      right: 12%;
+    }
+  
+    .leftarrow {
+      left: 20%;
+    }
+  
+    .rightarrow {
+      right: 20%;
+    }
 }
 
-/* iPad Portrait */
-@media screen and (min-device-width: 481px) and (orientation:portrait) {
-  .thumbsdown {
-    left: 5%;
-  }
-  .thumbsup {
-    right: 5%;
-  }
+/* ----------- iPad Pro 10.5" ----------- */
 
-  .leftarrow {
-    left: 10%;
-  }
-
-  .rightarrow {
-    right: 10%;
-  }
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .main {
+      padding: 3rem;
+    }
+    .thumbsdown {
+      left: 12%;
+    }
+    .thumbsup {
+      right: 12%;
+    }
+  
+    .leftarrow {
+      left: 20%;
+    }
+  
+    .rightarrow {
+      right: 20%;
+    }
 }
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .main {
+      padding: 3rem;
+    }
+    .thumbsdown {
+      left: 12%;
+    }
+    .thumbsup {
+      right: 12%;
+    }
+  
+    .leftarrow {
+      left: 20%;
+    }
+  
+    .rightarrow {
+      right: 20%;
+    }
+}
+
 
 /* iPhone Landscape */
-@media screen and (max-device-width: 480px) and (orientation:landscape) {
+@media only screen and (max-device-width: 480px) and (orientation:landscape) {
   .main {
     padding: 2rem;
   }
@@ -91,7 +158,7 @@
 }
 
 /* iPhone Portrait */
-@media screen and (max-device-width: 480px) and (orientation:portrait) {
+@media only screen and (max-device-width: 480px) and (orientation:portrait) {
   .main {
     padding: 2rem;
   }

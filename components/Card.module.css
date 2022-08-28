@@ -34,34 +34,108 @@
   font-size: 1rem;
 }
 
-/* iPad Landscape */
-@media screen and (min-device-width: 481px) and (orientation:landscape) {
-  .card {
-    max-width: 268px;
-  }
+/* ----------- iPad 1, 2, Mini and Air ----------- */
 
-  .cardImg {
-    width: 268px;
-    height: 234px;
-  }
-
-  .cardBody {
-    max-height: 241px;
-    width: 270px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-  }
-
-}
-
-/* iPad Portrait */
-@media screen and (min-device-width: 481px) and (orientation:portrait) {
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .card {
+      max-width: 268px;
+    }
   
+    .cardImg {
+      width: 268px;
+      height: 234px;
+    }
+  
+    .cardBody {
+      max-height: 241px;
+      width: 270px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  
+    }
 }
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .card {
+      max-width: 268px;
+    }
+  
+    .cardImg {
+      width: 268px;
+      height: 234px;
+    }
+  
+    .cardBody {
+      max-height: 241px;
+      width: 270px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  
+    }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .card {
+      max-width: 268px;
+    }
+  
+    .cardImg {
+      width: 268px;
+      height: 234px;
+    }
+  
+    .cardBody {
+      max-height: 241px;
+      width: 270px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  
+    }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .card {
+      max-width: 268px;
+    }
+  
+    .cardImg {
+      width: 268px;
+      height: 234px;
+    }
+  
+    .cardBody {
+      max-height: 241px;
+      width: 270px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  
+    }
+}
+
 
 /* iPhone Landscape */
-@media screen and (max-device-width: 480px) and (orientation:landscape) {
+@media only screen and (max-device-width: 480px) and (orientation:landscape) {
   .card {
     max-width: 200px;
   }
@@ -82,7 +156,7 @@
 }
 
 /* iPhone Portrait */
-@media screen and (max-device-width: 480px) and (orientation:portrait) {
+@media only screen and (max-device-width: 480px) and (orientation:portrait) {
   .card {
     max-width: 200px;
   }

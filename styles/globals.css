@@ -36,19 +36,60 @@ button {
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
-/* iPad Landscape */
-@media screen and (min-device-width: 481px) and (orientation:landscape) {
+
+ /* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
   .swipe {
     left: 55%;
   }
- }
+}
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+  .swipe {
+    left: 55%;
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 834px) 
+and (max-device-width: 1112px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .swipe {
+    left: 55%;
+  }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .swipe {
+    left: 55%;
+  }
+}
 
 /* iPad Portrait */
-@media screen and (min-device-width: 481px) and (orientation:portrait) {
+@media only screen and (min-device-width: 481px) and (orientation:portrait) {
 }
 
 /* iPhone Landscape */
-@media screen and (max-device-width: 480px) and (orientation:landscape) {
+@media only screen and (max-device-width: 480px) and (orientation:landscape) {
   .swipe {
     top: 50%;
     left: 60%;
@@ -56,7 +97,7 @@ button {
 }
 
 /* iPhone Portrait */
-@media screen and (max-device-width: 480px) and (orientation:portrait) {
+@media only screen and (max-device-width: 480px) and (orientation:portrait) {
   .swipe {
     top: 50%;
     left: 75%;
