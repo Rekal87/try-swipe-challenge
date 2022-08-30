@@ -6,7 +6,7 @@
 }
 
 /* Arrows */
-.leftarrow {
+/* .leftarrow {
   left: 35%;
   top: 50%;
   position: absolute;
@@ -18,7 +18,7 @@
   position: absolute;
 }
 
-/* Thumbs */
+Thumbs
 .thumbsdown {
   left: 25%;
   top: 50%;
@@ -29,7 +29,7 @@
   right: 25%;
   top: 50%;
   position: absolute;
-}
+} 
 
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */
