@@ -26,6 +26,7 @@ button {
   margin-top: 15%;
   display: flex;
   flex: 1;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -119,3 +120,22 @@ button {
                                   supported by Chrome, Opera and Firefox */
 }
 
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .body {
+      width: 100vw;
+      height: 100vh;
+      max-width: 812px;
+    }
+
+    .swiper {
+      width: 120px;
+      height: 160px;
+    }
+
+}
