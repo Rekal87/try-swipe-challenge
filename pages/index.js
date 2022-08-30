@@ -27,7 +27,7 @@ export default function Home() {
           <img src='./images/logo.svg' alt='logo' />
         </picture>
 
-        <div className='swipe noselect'>
+        <div className='swipe'>
           <button className={styles.thumbsdown}>
             <svg
               width='24'

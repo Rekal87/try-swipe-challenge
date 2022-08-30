@@ -18,5 +18,5 @@ I think its impossible to get something to fit within the proved card image, so 
 
 ## Made with
 
-NextJS, React Spring, React-Use-Gesture.
+NextJS, React Swiper, useHooks-ts(localstorage), custom hook
 

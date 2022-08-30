@@ -37,10 +37,11 @@ button {
 
 .swiper-slide {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 18px;
-  font-size: 22px;
+  font-size: 12px;
   font-weight: bold;
   color: #fff;
 }
