@@ -25,6 +25,7 @@ button {
   border: 1px solid transparent;
   margin-top: 15%;
   display: flex;
+  flex: 1;
   justify-content: space-evenly;
 }
 
