@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Deck from '../components/Deck';
 import Swipe from '../components/Swiper';
 import 'swiper/css/bundle';
 import styles from '../styles/Home.module.css';
