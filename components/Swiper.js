@@ -29,7 +29,6 @@ export default function Swipe() {
       method: 'POST',
       body: status,
     })
-      .then((response) => response.json())
       .then((response) => console.log('result from post', response))
       .catch((error) => console.log('error: ', error));
 
