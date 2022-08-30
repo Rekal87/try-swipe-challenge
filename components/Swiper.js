@@ -52,12 +52,19 @@ export default function Swipe() {
               <Image
                 src={card.image}
                 alt={card.title}
-                height={270}
+                height={320}
                 width={240}
+                objectFit='cover'
               />
             </div>
-            <div>{card.title}</div>
-            <div>{card.body}</div>
+            <div className='card-content'>
+              <div>
+                <p className='title'>{card.title}</p>
+              </div>
+              <div>
+                <p className='body'>{card.body}</p>
+              </div>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
